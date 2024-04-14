@@ -35,7 +35,7 @@ def TheDiv(a, b, c):    #O(n)
 
 #Dominio:t [1<=t<=100], c [1<=c<=20], r [1<=r<=5]
 #Codominio: 
-#t*(O(n^2)) or O(t*(n^2))
+#O(t*n^2) or O(n^3)
 t=int(input())  
 while t:
     t-=1
